@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raios de Luz Saint Germain</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Lora&display=swap" rel="stylesheet">
+</head>
+
+<audio id="audioFundo" src="musica.mp3" loop></audio>
+<button onclick="alternarMusica()">🎵 Música Ambiente</button>
+
+<body>
+  <header class="cabecalho fade-glow">
+    <h1> Raios de Luz Saint Germain </h1>
+    <h2>Distribuído por Benefactor</h2>
+  </header>
+
+    <div class="caixa-de-luz fade-glow">
+      <p><strong>Bem-vinda(o) ao caminho da luz!</strong></p>
+      <p>Aqui você encontrará ensinamentos espirituais do Mestre Saint Germain.</p>
+      <p>O funcionamento do site é simples: ao baixar um ensinamento, o próximo será automaticamente liberado.</p>
+      <p>Sugerimos que estude <strong>um ensinamento por semana</strong>, dedicando os dias seguintes à reflexão e à prática do que foi transmitido.<br>
+      A vivência é parte essencial do processo.</p>
+      <p><strong>Com os mais amorosos votos de PAZ PROFUNDA,</strong><br>Benefactor.</p>
+    </div>    
+
+  <ul class="lista-ensinamentos fade-glow">
+    <li>
+      <button onclick="baixarEnsinamento(1.1)">✨ Baixar Ensinamento 1.1</button>
+    </li>
+    <li>
+      <button onclick="baixarEnsinamento(1.2)" disabled id="btn1_2">✨ Baixar Ensinamento 1.2</button>
+    </li>
+    <li>
+      <button onclick="baixarEnsinamento(1.3)" disabled id="btn1_3">✨ Baixar Ensinamento 1.3</button>
+    </li>
+    <li><button onclick="baixarEnsinamento('2.1')" disabled id="btn2_1">Baixar Ensinamento 2.1</button></li>
+  <li><button onclick="baixarEnsinamento('2.2')" disabled id="btn2_2">Baixar Ensinamento 2.2</button></li>
+  <li><button onclick="baixarEnsinamento('2.3')" disabled id="btn2_3">Baixar Ensinamento 2.3</button></li>
+  </ul>
+  
+  <footer class="rodape fade-glow">
+    <p>Que a luz da sabedoria guie todos os seus passos. 🕊️</p>
+    <p>&copy; 2025 Raios de Luz Saint Germain - Benefactor</p>
+    <p class="nota-homenagem">
+      Este site é uma homenagem ao querido Benefactor, que passou pelo desencarne e seguiu sua jornada de luz.  
+      Foi seu desejo, ainda nesta vida, compartilhar os ensinamentos do Mestre Saint Germain com o mundo.  
+      Que esta obra continue irradiando a luz que ele sempre desejou transmitir. 🕊️
+    </p>
+    
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>

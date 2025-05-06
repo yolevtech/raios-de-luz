@@ -1,0 +1,133 @@
+/* style.css */
+body {
+  background: url('imagens/fundoraios.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #2d1b4f;
+  font-family: 'Lora', serif;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.intro, .lista-ensinamentos, .rodape {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  padding: 20px;
+}
+  
+  .cabecalho {
+    background: linear-gradient(to right, #e9d7f7, #f8f6ff);
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 2px solid #d1b2f9;
+    box-shadow: 0 4px 8px rgba(106, 13, 173, 0.1);
+  }
+  
+  .cabecalho h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 32px;
+    color: #6a0dad;
+    margin-bottom: 10px;
+  }
+  
+  .cabecalho h2 {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    color: #9370db;
+  }
+  
+  .intro {
+    text-align: center;
+    font-size: 18px;
+    max-width: 700px;
+    margin: 40px auto;
+  }
+  
+  .lista-ensinamentos {
+    list-style-type: none;
+    padding: 0;
+    max-width: 300px;
+    margin: 0 auto 40px;
+  }
+  
+  .lista-ensinamentos li {
+    margin: 10px 0;
+  }
+  
+  button {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    background-color: #d8b4f8;
+    color: #2d1b4f;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: 'Lora', serif;
+  }
+  
+  button:hover:enabled {
+    background-color: #c89ff2;
+    transform: scale(1.05);
+  }
+  
+  button:disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: default;
+  }
+
+  
+  .rodape {
+    background: linear-gradient(to right, #f8f6ff, #e9d7f7);
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #6a0dad;
+    margin-top: 40px;
+    border-top: 2px solid #d1b2f9;
+  }
+  
+  .rodape p {
+    margin: 10px auto;
+    max-width: 700px;
+    line-height: 1.6;
+  }
+  
+  .nota-homenagem {
+    font-style: italic;
+    opacity: 0.85;
+  }
+  
+  .fade-glow {
+    opacity: 0;
+    animation: fadeGlow 2s ease forwards;
+  }
+  
+  @keyframes fadeGlow {
+    0% {
+      opacity: 0;
+      filter: brightness(1.2);
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      filter: brightness(1);
+      transform: translateY(0);
+    }
+  }
+  .caixa-de-luz {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid #d6b4f8;
+    border-radius: 12px;
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 700px;
+    box-shadow: 0 0 30px rgba(106, 13, 173, 0.08);
+    text-align: justify;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #2d1b4f;
+  }
+  
+    
